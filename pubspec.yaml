@@ -1,0 +1,28 @@
+name: simple_calculator
+description: A Simple Calculator
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  math_expressions: ^1.1.1
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Questrial
+      fonts:
+        - asset: fonts/Questrial-Regular.ttf
+    - family: Chivo
+      fonts:
+        - asset: fonts/Chivo-Black.ttf
+        - asset: fonts/Chivo-Bold.ttf
